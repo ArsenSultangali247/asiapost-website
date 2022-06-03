@@ -61,13 +61,19 @@ body{
     align-items: center;
 }
 
-.logo-header{
-    margin-right: 500px;
+.logo{
+    margin-right: 260px;
+}
+
+.logo-img{
+    fill: var(--primary-red-color);
+    
 }
 
 .navigation {
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .nav-list {
@@ -85,21 +91,49 @@ body{
     margin-right: 30px;
 }
 
-.nav-list-item:last-child {
+.nav-list-item:last-child{
     margin-right: 0px;
 }
 
 .nav-item {
     text-decoration: none;
     color: var(--primary-red-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 34px;
+    padding-bottom: 34px;
     display: block;
 }
 
 .nav-item:hover,
 .nav-item:focus{
     color: var(--primary-text-red-hover-color);
+}
+
+.modal-button-header{
+    display: flex;
+    border: transparent;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 30px;
+    width: 142px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--primary-red-color);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+}
+
+.modal-button-header:focus,
+.modal-button-header:hover{
+    background-color: var(--primary-btn-red-hover-color);
 }
 
 /* HEADER-END */
@@ -117,7 +151,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("/asiapost-website/img/hero-bg.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../../img/hero-bg.jpg");
 }
 
 .hero-txt1{
@@ -208,10 +242,16 @@ body{
 
 .services{
     text-align: center;
-    max-width: 1600px;
-    min-height: 650px;
     padding-top: 100px;
     padding-bottom: 100px;
+    max-width: 1600px;
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(30, 30, 36, 0.8), rgba(30, 30, 36, 0.8)),url("../../img/services.jpg");
 }
 
 .services-title{
@@ -221,7 +261,7 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 30px;
-    color: var(--primary-red-color);
+    color: #f05e63;
 }
 
 .services-desc{
@@ -230,7 +270,8 @@ body{
     line-height: 1.72;
     letter-spacing: 0.03em;
     margin-top: auto;
-    margin-bottom: 30px;   
+    margin-bottom: 30px; 
+    color: #d4d4d4;  
 }
 
 .services-form-title{
@@ -240,12 +281,13 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 30px;
-    color: var(--primary-red-color);
+    color: #f05e63;
 }
 
 .form-label{
     display: block;
     margin-bottom: 5px;
+    color: #d4d4d4;
 }
 
 .form-input{
@@ -303,3 +345,8 @@ body{
 .modal-button-form:hover{
     background-color: var(--primary-btn-red-hover-color);
 }
+
+/* SERVICES - END */
+
+/* TRACKING */
+

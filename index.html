@@ -23,9 +23,9 @@
         <header class="header">
             <div class="container header-container">
                 <nav class="navigation">
-                    <a href="index.html" class="logo-header">
-                        <svg class="logo-img" width="68" height="56">
-                            <use href=""></use>
+                    <a class="logo" href="">
+                        <svg class="logo-img" width="240" height="82">
+                            <use href="../../img/icons.svg#icon-logo"></use>
                         </svg>
                     </a>
                     <ul class="nav-list">
@@ -33,10 +33,10 @@
                             <a href="#about-us" class="nav-item"><span class="nav-focus-studio">О нас</span></a>
                         </li>
                         <li class="nav-list-item">
-                            <a href="" class="nav-item">Тарифы и услуги</a>
+                            <a href="#services" class="nav-item">Тарифы и услуги</a>
                         </li>
                         <li class="nav-list-item">
-                            <a href="" class="nav-item">Трекинг</a>
+                            <a href="TRACKING" class="nav-item">Трекинг</a>
                         </li>
                         <li class="nav-list-item">
                             <a href="" class="nav-item">Вызов курьера</a>
@@ -46,6 +46,9 @@
                         </li>
                     </ul>
                 </nav>
+                <a class="link" href="http://home.courierexe.ru/252" target="_blank" rel="noreferrer">
+                    <button type="button" class="modal-button-header">Личный кабинет</button>
+                </a>
             </div>
         </header>
         <!-- HERO -->
@@ -54,7 +57,7 @@
                 <h1 class="hero-txt1">Доставка грузов и документов</h1>
                 <h5 class="hero-txt2">По городу, Казахстану и всему миру</h5>
                 <a class="link" href="http://home.courierexe.ru/252/tracking" target="_blank" rel="noreferrer">
-                    <button type="button" class="modal-button"><span class="modal-button-text">Отследить доставку</span></button>
+                    <button type="button" class="modal-button">Отследить доставку</button>
                 </a>
             </div>
         </section>
@@ -75,12 +78,12 @@
                 Мы обеспечим вам высококлассный сервис и выполним работу быстро и качественно
                 </h5>
                 <a class="link" href="#order">
-                    <button type="button" class="modal-button"><span class="modal-button-text">Начать работу с нами</span></button>
+                    <button type="button" class="modal-button">Начать работу с нами</button>
                 </a>
             </div>
         </section>
         
-        <!-- -->
+        <!-- SERVICES -->
         <section id="services" class="services">
             <div class="container services-container">
                 <h2 class="services-title ">Тарифы и услуги</h2>
@@ -116,101 +119,68 @@
             </div>
         </section>
 
-        
+        <!-- TRACKING 
         <section id="tracking" class="tracking">
             <div class="container tracking-container">
                 <h2>Отследить доставку</h2>
                 <p>Перейдя по ссылке, вы сможете отследить свою доставку:</p>
                 <a href="http://home.courierexe.ru/252/tracking" target="_blank" rel="noreferrer">Трекинг</a>
             </div>
-        </section>
+        </section> -->
 
-        
+        <!-- ORDER -->
         <section id="order" class="order">
             <div class="container order-container">
                 <h2>Калькулятор</h2>
                 <p>Перейдя по ссылке, с помощью калькулятора вы сможете подсчитать цену доставки:</p>
                 <a href="http://home.courierexe.ru/252/calculator">Подсчитать стоимость</a>
-
                 <h2>Заказать доставку</h2>
                 <h5 class="order-desc">Для вызова курьера необходимо заполнить следующую форму:</h5>
                 <div class="form" id="myForm">
                     <form action="/action_page.php" class="form-container">
-                        <h1>Анкета</h1>
-                        
+                        <h1>Анкета</h1>                       
                         <div class="form-item">
-
                             <label for="city"><b>Город</b></label>
-                            <input type="text" size="50" placeholder="Ввести..." name="city" required>
-                        
+                            <input type="text" size="50" placeholder="Ввести..." name="city" required>                        
                         </div>    
-
-                        <div class="form-item">
-                        
+                        <div class="form-item">                    
                             <label for="address"><b>Адрес</b></label>
-                            <input type="text" size="50" placeholder="Ввести..." name="address" required>
-                        
+                            <input type="text" size="50" placeholder="Ввести..." name="address" required>                        
                         </div>
-
                         <div class="form-item">
-
                             <label for="company"><b>Компания</b></label>
-                            <input type="text" size="50" placeholder="Ввести..." name="company" required>   
-                        
+                            <input type="text" size="50" placeholder="Ввести..." name="company" required>                           
                         </div>
-
-                        <div class="form-item">
-                        
+                        <div class="form-item">                        
                             <label for="contact"><b>Контактное лицо</b></label>
                             <input type="text" size="50" placeholder="Ввести..." name="contact" required>
-
                         </div>
-
-                        <div class="form-item">
-                        
+                        <div class="form-item">                        
                             <label for="tel"><b>Контактный телефон</b></label>
                             <input type="text" size="50" placeholder="Ввести..." name="tel" required>
-
                         </div>
-
-                        <div class="form-item">
-                        
+                        <div class="form-item">                        
                             <label for="email"><b>E-mail</b></label>
                             <input type="text" size="50" placeholder="Ввести..." name="email" required>
-
                         </div>
-
-                        <div class="form-item">
-                        
+                        <div class="form-item">                        
                             <label for="parceltype"><b>Тип отправления</b></label>
                             <select>
-
                                 <option>Документы</option>
                                 <option>Не документы</option>
-
                             </select>
-
                         </div>
-
-                        <div class="form-item">
-                        
+                        <div class="form-item">                        
                             <label for="clwishes"><b>Желаемые дата и время прибытия круьера</b></label>
                             <input type="text" size="50" placeholder="Ввести..." name="clwishes" required>
-
                         </div>
-
-                        <div class="form-item">
-                        
+                        <div class="form-item">                        
                             <label for="PS"><b>Примечания</b></label>
                             <textarea name="PS" cols="45" rows="5"></textarea>
-
                         </div>    
-
-                        <button type="submit" class="btn">Отправить</button>
-                    
+                        <button type="submit" class="btn">Отправить</button>                    
                     </form>
                 </div>
-
             </div>
         </section>
 
