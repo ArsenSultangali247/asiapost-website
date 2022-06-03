@@ -151,7 +151,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../../img/hero-bg.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("asiapost-website/img/hero-bg.jpg");
 }
 
 .hero-txt1{
@@ -251,7 +251,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(30, 30, 36, 0.8), rgba(30, 30, 36, 0.8)),url("../../img/services.jpg");
+    background-image: linear-gradient(rgba(30, 30, 36, 0.8), rgba(30, 30, 36, 0.8)),url("asiapost-website/img/services.jpg");
 }
 
 .services-title{
