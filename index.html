@@ -25,12 +25,12 @@
                 <nav class="navigation">
                     <a href="index.html" class="logo-header">
                         <svg class="logo-img" width="68" height="56">
-                            <use href="./images/sprite.svg#logo"></use>
+                            <use href=""></use>
                         </svg>
                     </a>
                     <ul class="nav-list">
                         <li class="nav-list-item">
-                            <a href="" class="nav-item"><span class="nav-focus-studio">О нас</span></a>
+                            <a href="#about-us" class="nav-item"><span class="nav-focus-studio">О нас</span></a>
                         </li>
                         <li class="nav-list-item">
                             <a href="" class="nav-item">Тарифы и услуги</a>
@@ -51,92 +51,65 @@
         <!-- HERO -->
         <section class="hero">
             <div class="container hero-container">
-                <h1>Доставка грузов и документов</h1>
-                <h5>по городу, Казахстану и всему миру</h5>
-                <a href="http://home.courierexe.ru/252/tracking" target="_blank" rel="noreferrer">
+                <h1 class="hero-txt1">Доставка грузов и документов</h1>
+                <h5 class="hero-txt2">По городу, Казахстану и всему миру</h5>
+                <a class="link" href="http://home.courierexe.ru/252/tracking" target="_blank" rel="noreferrer">
                     <button type="button" class="modal-button"><span class="modal-button-text">Отследить доставку</span></button>
                 </a>
             </div>
         </section>
  
-        <!-- ABOUT 
+        <!-- ABOUT -->
         <section id="about-us" class="about-us">
             <div class="container about-container">
-
-                <h2>О компании</h2>
+                <h2 class="about-us-title">О компании</h2>
                 <h5 class="ab-us-desc">Курьерская компания Asia Post свидетельствует своё уважение и рада предоставить Вам возможность высококачественной
                 доставки пакетной документации по всему миру и грузов по Казахстану на основе принципа "из рук в руки", "от двери до
-                двери".
-                </h5>
-                <h5 class="ab-us-desc">Компания Asia Post обладает практическим опытом работы на рынке курьерских услуг, отработанной технологией
+                двери". Компания Asia Post обладает практическим опытом работы на рынке курьерских услуг, отработанной технологией
                 транспортировки, доставки корреспонденции и грузов. Знания и профессионализм наших сотрудников, а также наличие всех
-                необходимых ресурсов, обеспечивают надежное качество и комфортный сервис обслуживания на международном уровне.
-                </h5>
-                <h5 class="ab-us-desc">Основной принцип работы компании заключается в создании максимально удобных условий для сотрудничества, индивидуальный
-                подход к каждому клиенту и конечно гибкая тарифная политика.
-                </h5>
-                <h5 class="ab-us-desc">Оперативность является основой стиля нашей работы. Сокращая время между заказом и поставкой, мы делаем этот процесс
+                необходимых ресурсов, обеспечивают надежное качество и комфортный сервис обслуживания на международном уровне. Основной принцип работы компании заключается в создании максимально удобных условий для сотрудничества, индивидуальный
+                подход к каждому клиенту и конечно гибкая тарифная политика. Оперативность является основой стиля нашей работы. Сокращая время между заказом и поставкой, мы делаем этот процесс
                 более динамичным и эффективным. Фиксированные сроки доставки позволяют заказчику планировать время отправления и
-                получения документов и грузов.
+                получения документов и грузов. Мы будем рады видеть Вас в качестве нашего постоянного клиента, а также предложить взаимовыгодное и плодотворное
+                сотрудничество!
+                Мы обеспечим вам высококлассный сервис и выполним работу быстро и качественно
                 </h5>
-                <h5><span class="ab-us-desc-tpart">Мы будем рады видеть Вас в качестве нашего постоянного клиента, а также предложить взаимовыгодное и плодотворное
-                сотрудничество!</span>
-                </h5>
-                <a class="zakaz" href="zakaz">Начните работать с нами прямо сейчас</a>
-                <h5 class="ab-us-desc">Мы обеспечим вам высококлассный сервис и выполним работу быстро и качественно</h5>
-
+                <a class="link" href="#order">
+                    <button type="button" class="modal-button"><span class="modal-button-text">Начать работу с нами</span></button>
+                </a>
             </div>
         </section>
         
-        
+        <!-- -->
         <section id="services" class="services">
             <div class="container services-container">
-
-                <h2>Тарифы и услуги</h2>
+                <h2 class="services-title ">Тарифы и услуги</h2>
                 <h5 class="services-desc">Для того, чтобы получить тарифы на услуги нашей компании просим Вас заполнить анкету указанную ниже.
                 Это займет всего лишь пару минут Вашего времени!</h5>
-
                 <div class="form" id="myForm">
                     <form action="/action_page.php" class="form-container">
-                        <h1>Анкета</h1>
-                        
+                        <h2 class="services-form-title">Анкета</h2>                        
                         <div class="form-item">
-
-                            <label for="name"><b>Фамилия, Имя</b></label>
-                            <input type="text" size="50" placeholder="Ввести..." name="name" required>
-                        
+                            <label class="form-label" for="name"><b>Фамилия, Имя</b></label>
+                            <input class="form-input" type="text" size="50" placeholder="Ввести..." name="name" required>
                         </div>    
-
                         <div class="form-item">
-                        
-                            <label for="comp"><b>Компания</b></label>
-                            <input type="text" size="50" placeholder="Ввести..." name="comp" required>
-                        
+                            <label class="form-label" for="comp"><b>Компания</b></label>
+                            <input class="form-input" type="text" size="50" placeholder="Ввести..." name="comp" required>
                         </div>
-
                         <div class="form-item">
-
-                            <label for="email"><b>Почта</b></label>
-                            <input type="text" size="50" placeholder="Ввести..." name="email" required>   
-                        
+                            <label class="form-label" for="email"><b>Почта</b></label>
+                            <input class="form-input" type="text" size="50" placeholder="Ввести..." name="email" required>   
                         </div>
-
-                        <div class="form-item">
-                        
-                            <label for="tel"><b>Телефон</b></label>
-                            <input type="text" size="50" placeholder="Ввести..." name="tel" required>
-
+                        <div class="form-item">                        
+                            <label class="form-label" for="tel"><b>Телефон</b></label>
+                            <input class="form-input" type="text" size="50" placeholder="Ввести..." name="tel" required>
                         </div>
-
                         <div class="form-item">
-                        
-                            <label for="request"><b>Ваш запрос</b></label>
-                            <textarea name="request" cols="45" rows="5"></textarea>
-
+                            <label class="form-label" for="request"><b>Ваш запрос</b></label>
+                            <textarea class="form-input-request" name="request" cols="45" rows="5"></textarea>
                         </div>    
-
-                        <button type="submit" class="btn">Отправить</button>
-                    
+                        <button type="submit" class="modal-button-form">Отправить</button>
                     </form>
                 </div>
 
