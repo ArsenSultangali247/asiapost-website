@@ -67,6 +67,11 @@ body{
     background-color: var(--primary-bg-color);
 }
 
+.wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
 /* HEADER */
 
 .header{
@@ -865,7 +870,7 @@ body{
         text-align: center;
         padding-top: 20px;
         padding-bottom: 20px;
-        max-width: 768px;
+        width: 100%;
         min-height: 50px;
         margin-left: auto;
         margin-right: auto;
@@ -1404,6 +1409,7 @@ body{
 /* FOOTER */
 .footer {
     padding-top: 10px;
+    padding-left: 10px;
     background: var(--footer-bg-color);
 }
 
@@ -1511,6 +1517,7 @@ body{
 @media screen and (min-width: 768px){
     .footer {
         padding-top: 30px;
+        padding-left: 30px;
         background: var(--footer-bg-color);
     }
 
@@ -1616,6 +1623,7 @@ body{
 @media screen and (min-width: 1200px){
     .footer {
         padding-top: 30px;
+        padding-left: 30px;
         background: var(--footer-bg-color);
     }
 
